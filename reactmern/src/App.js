@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import First from "./components/firstcomp";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1 className="text-center font-bold text-4xl">Hello React JS</h1>
+    <hr />
+     <First />
+    <hr />
+    
+    </>
   );
 }
 
 export default App;
+
+// Class componets are State full,
+// function components are state less,
+
+// State Full: can change data (For example: facebook like system) but we can't change data in functional components.
