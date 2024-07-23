@@ -1,4 +1,5 @@
 import '../Style/style.css'
+import { Button } from './second';
 
 const First = ()=>{
 
@@ -6,10 +7,18 @@ const First = ()=>{
     return(
         <>
             <h1 className="text-2xl font-medium " >This is  my First Component</h1>
-            <p className="size-[40%]" id="para">This Component was Created by <strong>Saroj bata</strong>. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum iusto iste nam consectetur dignissimos reiciendis laborum, recusandae culpa! Inventore eligendi voluptates atque, itaque nulla numquam soluta excepturi quae reiciendis totam, rerum accusamus minima aliquid perspiciatis tempore, quas eaque quos dolorem!</p>
-        </>
+            <p className="size-[40%]" id="para">This Component was Created by <strong>Saroj bata</strong>. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum iusto iste nam consectetur dignissimos reiciendis laborum, recusandae culpa! Inventore eligendi voluptates atque, itaque nulla numquam soluta excepturi quae reiciendis totam, rerum accusamus minima aliquid perspiciatis tempore, quas eaque quos dolorem! <br /> <Button />
+            </p>
+
+         
+         
+        <button className='btn btn-success'>See More</button>
+         
+        {/*  */}
+         
+                </>
     )
 }
-// First();
+
 
 export default First;

@@ -1,13 +1,10 @@
-import First from "./components/firstcomp";
+import MyRoute from "./MyRoute";
+// import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
-    <h1 className="text-center font-bold text-4xl">Hello React JS</h1>
-    <hr />
-     <First />
-    <hr />
-    
+   <MyRoute />
     </>
   );
 }
